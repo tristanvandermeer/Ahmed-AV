@@ -5,7 +5,7 @@ looks good bro
 
 # Tauri + Vanilla
 
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Javascript.
+Made with the template :3
 
 ## Recommended IDE Setup
 
