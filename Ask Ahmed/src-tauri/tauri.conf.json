@@ -1,21 +1,40 @@
 {
-  "$schema": "https://schema.tauri.app/config/2",
+  "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
   "productName": "ask-ahmed",
   "version": "0.1.0",
-  "identifier": "com.ask-ahmed.app",
+  "identifier": "com.tauri.dev",
   "build": {
-    "frontendDist": "../src"
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:5173",
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build"
   },
   "app": {
-    "withGlobalTauri": true,
+    "macOSPrivateApi": true,                                  
     "windows": [
       {
-        "title": "ask-ahmed",
-        "width": 800,
-        "height": 600
+        "label": "main",
+        "title": "Ahmed",
+        "width": 600,
+        "height": 450,
+        "transparent": true,
+        "resizable": false,
+        "fullscreen": false,
+        "decorations": false
       }
     ],
     "security": {
+      "capabilities": [
+        {
+          "identifier": "draggable-window",
+          "windows": [
+            "*"
+          ],
+          "permissions": [
+            "core:window:allow-start-dragging"
+          ]
+        }
+      ],
       "csp": null
     }
   },

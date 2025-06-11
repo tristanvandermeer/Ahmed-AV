@@ -1,7 +1,7 @@
 {
-  "name": "ask-ahmed",
+  "name": "src",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,9 @@
     "tauri": "tauri"
   },
   "devDependencies": {
-    "@tauri-apps/cli": "^2",
     "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "xp.css": "^0.2.6"
   }
 }
