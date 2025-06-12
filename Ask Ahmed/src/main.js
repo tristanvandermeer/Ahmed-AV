@@ -1,6 +1,8 @@
 import "xp.css/dist/XP.css"
 import './styles.css';
 
+// const { event, window: tauriWindow, path } = window.__Tauri__;
+
 setInterval(() => {
     const now = new Date();
     document.getElementById("text").innerText = `The time is: ${now.toLocaleTimeString()}`;
@@ -10,4 +12,3 @@ document.getElementById("ok").addEventListener("click", () => {
   document.getElementById("text").innerText = `stop it`;
 });
 
-console.log('Frontend loaded');
