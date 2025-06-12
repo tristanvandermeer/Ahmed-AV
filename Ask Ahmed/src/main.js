@@ -1,12 +1,6 @@
 import "xp.css/dist/XP.css"
 import './styles.css';
 
-const { invoke } = window.tauri.core;
-const { listen } = window.tauri.event;
-const { getCurrent } = window.tauri.window;
-
-
-
 setInterval(() => {
     const now = new Date();
     document.getElementById("text").innerText = `The time is: ${now.toLocaleTimeString()}`;
