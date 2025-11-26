@@ -80,6 +80,7 @@ button {
   right: 20px;
   object-fit: cover;
   image-rendering: pixelated;
+  -user-select: none;
 }
 
 .output {
@@ -96,4 +97,5 @@ button {
   position: relative;
   left: 17px;
   top: 10px;
+  user-select: none;
 }

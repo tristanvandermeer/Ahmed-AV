@@ -1,5 +1,6 @@
 import "xp.css/dist/XP.css"
 import './styles.css';
+import { getCurrentWindow } from "@tauri-apps/api/window";
 
 // const { event, window: tauriWindow, path } = window.__Tauri__;
 
@@ -12,3 +13,8 @@ document.getElementById("ok").addEventListener("click", () => {
   document.getElementById("text").innerText = `stop it`;
 });
 
+const currentWindow = getCurrentWindow();
+
+document.getElementById("close-button").addEventListener("click", () => {
+  currentWindow.close(); // tells the Rust side to close this window
+});
