@@ -51,7 +51,7 @@ html, body {
 
 .ok {
   position: absolute;
-  left: 170px;
+  left: 180px;
   bottom: 20px;
   font-size: 13px; 
 }
@@ -85,7 +85,7 @@ button {
 
 .output {
   position: absolute;
-  left: 55px;
+  left: 43px;
   top: 70px;
   z-index: 9999;
 }
@@ -95,7 +95,7 @@ button {
   width: 200px;
   height: 200px;
   position: relative;
-  left: 17px;
+  left: 7px;
   top: 10px;
   user-select: none;
 }
