@@ -6,7 +6,7 @@ AskAhmed is an _in progress_ anti-virus and (hopefully) EDR that I'm building as
 
 The frontend is done and is based on [this dream by a random reddit user](https://www.reddit.com/r/thomastheplankengine/comments/1l57o80/i_dreamt_i_had_this_virus_detection_program_which/) that I thought was hilarious. I'm going to keep the dry human talk and minimize tech-y explanations (unless they want them). I wrote this frontend 5 months ago before I knew how to properly CSS (it's all absolute position, kill me). I'll rewrite this later.
 
-![The frontend!](./Frontend.png)
+![The frontend!](./Frontend1.png)
 
 Also, this project will stay cross platform. My goal is to learn both Windows and Mac OS internals and apply them here.
 
