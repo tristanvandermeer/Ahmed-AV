@@ -14,9 +14,9 @@ Also, this project will stay cross platform. My goal is to learn both Windows an
 
 These are things that I am planning to study and then implement. Please be patient. I'll figure out how I'm organising it later.
 
-> Entropy detection (applies in both prevention and post-breach I believe)\
-> Anti-anti-debugging (vague but I'll narrow it down)\
-> PE Header analysis
+-> Entropy detection (applies in both prevention and post-breach I believe)\
+-> Anti-anti-debugging (vague but I'll narrow it down)\
+-> PE Header analysis
 
 # Tauri + Vanilla
 
