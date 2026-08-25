@@ -10,9 +10,7 @@ The frontend is done and is based on [this dream by a random reddit user](https:
 
 Also, this project will stay cross platform. My goal is to learn both Windows and Mac OS internals and apply them here.
 
-# And so the project begins
-
-These are things that I am planning to study and then implement. Please be patient. I'll figure out how I'm organising it later.
+# To do
 
 -> Entropy detection (applies in both prevention and post-breach I believe)\
 -> Anti-anti-debugging (vague but I'll narrow it down)\
